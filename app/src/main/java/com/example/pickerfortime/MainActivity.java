@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         newFragment.show(getSupportFragmentManager(), "timePicker");
     }
 
-    public void processDatePickerResult(int hour, int minute){
+    public void processTimePickerResult(int hour, int minute){
         String hour_string = Integer.toString(hour);
         String minute_string = Integer.toString(minute);
         String timeMessage = (hour_string + ":" + minute_string);
